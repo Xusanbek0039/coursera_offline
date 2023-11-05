@@ -41,8 +41,8 @@
                 </form>
               
                     {% if user.is_authenticated %}
-                    <a href="{% url 'user-posts' user %}" class="btn text-white m-2"><i class="fas fa-user-shield"></i> Maning yuklamalarim</a>
-                    <a href="{% url 'post-create' %} " class="btn text-white m-2"><i class="fas fa-user-edit"></i> Yuklama joylash</a>
+                    <a href="{% url 'user-posts' user %}" class="btn text-white m-2"><i class="fas fa-user-shield"></i> Topshiriqlar</a>
+                    <a href="{% url 'post-create' %} " class="btn text-white m-2"><i class="fas fa-user-edit"></i> Topshiriq joylash</a>
                     <a href="{% url 'profile' %} " class="btn text-white m-2"><i class="fas fa-user"></i> {{ user.username }}</a>
                     <a href="{% url 'logout' %} " class="btn text-white m-2"><i class="fas fa-sign-out-alt"></i> Chiqish</a>
                     
